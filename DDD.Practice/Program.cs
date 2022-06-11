@@ -18,6 +18,10 @@ namespace DDD.Practice
     {
         private static ServiceProvider serviceProvider;
 
+        /// <summary>
+        /// エントリーポイント
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             Startup();
